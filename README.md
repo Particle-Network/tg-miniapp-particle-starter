@@ -38,7 +38,7 @@ This project is based on Next.js. Here is a list of the main files you need to u
 
 - [src/components/Home/index.tsx](https://github.com/soos3d/tg-miniapp-particle-starter/blob/main/src/components/Home/index.tsx): The `Home` component manages the user interface for the Telegram mini-app, handling wallet connections, smart account initialization, and navigation through tabs. This is the file you want to edit to configure the Samrt Account, the header of the app, and manage the interactive portions within the tabs.
 
--[src/components/EVMDemo/index.tsx](https://github.com/soos3d/tg-miniapp-particle-starter/blob/main/src/components/EVMDemo/index.tsx): The `EVMDemo` component allows users to interact with Ethereum blockchains via a smart account. The interaction is a gasless native token transfer. This is the file you edit to display more or less information and add features. This component it imported in the tabs component in `Home`.
+- [src/components/EVMDemo/index.tsx](https://github.com/soos3d/tg-miniapp-particle-starter/blob/main/src/components/EVMDemo/index.tsx): The `EVMDemo` component allows users to interact with Ethereum blockchains via a smart account. The interaction is a gasless native token transfer. This is the file you edit to display more or less information and add features. This component it imported in the tabs component in `Home`.
 
 ## Getting Started
 
