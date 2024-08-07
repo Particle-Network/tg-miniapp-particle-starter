@@ -94,6 +94,22 @@ yarn {script}
 # Example: yarn dev
 ```
 
+### Run Inside Telegram
+
+Although it is possible to run the application outside of Telegram, it is recommended to develop it
+within Telegram for the most accurate representation of its real-world functionality.
+
+To run the application inside Telegram, [@BotFather](https://t.me/botfather) requires an exposed link. Deploy the app in Vercel or expose your HTTP development server using [Ngrok](https://ngrok.com/).
+
+## Deploy
+
+The easiest way to deploy your Next.js app is to use
+the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+from the creators of Next.js.
+
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more
+details.
+
 ## Run the Mini-app
 
 Although Mini Apps are designed to be opened
@@ -127,19 +143,3 @@ file, which is imported in the application's `Root` component, employs the `mock
 function to simulate the Telegram environment. This trick convinces the application that it is
 running in a Telegram-based environment. Therefore, be cautious not to use this function in
 production mode unless you fully understand its implications.
-
-### Run Inside Telegram
-
-Although it is possible to run the application outside of Telegram, it is recommended to develop it
-within Telegram for the most accurate representation of its real-world functionality.
-
-To run the application inside Telegram, [@BotFather](https://t.me/botfather) requires an exposed link. Deploy the app in Vercel or expose your HTTP development server using [Ngrok](https://ngrok.com/).
-
-## Deploy
-
-The easiest way to deploy your Next.js app is to use
-the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
-from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more
-details.
