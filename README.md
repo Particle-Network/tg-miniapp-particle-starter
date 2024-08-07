@@ -44,14 +44,14 @@ This project is based on Next.js. Here is a list of the main files you need to u
 
 To get started with this project, follow the instructions below to set up and deploy your own Telegram Mini-app integrated with a Particle Network wallet.
 
-## Create Bot and Mini App
+### Create Bot and Mini App
 
 Before you start, make sure you have already created a Telegram Bot.
 Here is
 a [comprehensive guide](https://docs.telegram-mini-apps.com/platform/creating-new-app) on how to
 do it, you can stop at the step asking for a URL, you will need to deploy your app first.
 
-## Create Particle App
+### Create Particle App
 
 You need create a Particle-Telegram app on [Dashboard](https://dashboard.particle.network/), and get the config from project information.   
 
@@ -63,19 +63,19 @@ NEXT_PUBLIC_CLIENT_KEY='CLIENT_KEY'
 NEXT_PUBLIC_APP_ID='APP_ID'
 ```
 
-## Clone Repository:
+### Clone Repository:
 
 ```sh
 git clone
 ```
 
-## Install Dependencies
+### Install Dependencies
 
 ```Bash
 yarn install
 ```
 
-## Included Scripts
+### Included Scripts
 
 This project contains the following scripts:
 
