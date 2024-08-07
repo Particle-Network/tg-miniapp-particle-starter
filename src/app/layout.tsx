@@ -7,8 +7,9 @@ import "normalize.css/normalize.css";
 import "./_assets/globals.css";
 
 export const metadata: Metadata = {
-  title: "Your Application Title Goes Here",
-  description: "Your application description goes here",
+  title: "Particle Auth AA TG Mini-app demo",
+  description:
+    "Telegram Mini-app demo that integrates an EVM-compatible wallet using Account Abstraction with the Particle Network SDKs.",
 };
 
 export const viewport: Viewport = {
