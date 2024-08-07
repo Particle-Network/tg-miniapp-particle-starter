@@ -26,7 +26,7 @@ The main features include:
 
 - **Gasless Transactions**: The app allows users to send gasless transactions of a native token to any address of their choice, demonstrating the capabilities of the Particle Network Account Abstraction SDK.
 
-> Try the live [demo on Telegram](t.me/particle_auth_demo_bot/particle).
+> Try the live <a href="https://t.me/particle_auth_demo_bot/particle" target="_blank" rel="noopener noreferrer">demo on Telegram</a>.
 
 ### App development
 
